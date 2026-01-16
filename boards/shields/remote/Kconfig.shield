@@ -1,4 +1,0 @@
-config REMOTE
-    def_bool $(shields_list_contains,remote)
-
-    
