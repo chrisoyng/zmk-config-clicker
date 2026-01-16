@@ -14,7 +14,7 @@
 
         default_layer {
             bindings = <
-                &kp A &bt CLR
+                &kp A &bt BT_CLR
                 &kp C &mkp LCLK
             >;
         };
