@@ -1,0 +1,6 @@
+if SHIELD_HANDHELD
+
+config ZMK_KEYBOARD_NAME
+    default "handheld"
+
+endif # SHIELD_HANDHELD
