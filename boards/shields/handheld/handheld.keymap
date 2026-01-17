@@ -17,7 +17,7 @@
             bindings = <
                 &mkp MB1 &kp B &kp C
                 &none &none &none
-                &kp D &mkp MB2
+                &mkp MB1 &mkp MB2
             >;
         };
     };
