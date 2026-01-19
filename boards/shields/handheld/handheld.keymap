@@ -13,17 +13,17 @@
     keymap {
         compatible = "zmk,keymap";
 
-        1 {
+        default_layer {
             bindings = <
-                &to 1 &to 2 &bt BT_CLR
+                &to 0 &to 1 &bt BT_CLR
                 // &none &none &none
                 &kp MB1  &mkp MB2
             >;
         };
 
-        2 {
+        scroll_layer {
             bindings = <
-                &to 1 &to 2 &bt BT_CLR
+                &to 0 &to 1 &bt BT_CLR
                 // &none &none &none
                 &kp PAGE_DOWN  &mkp PAGE_UP
             >;
