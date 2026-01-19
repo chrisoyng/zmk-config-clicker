@@ -17,7 +17,7 @@
             bindings = <
                 &to 0 &to 1 &bt BT_CLR
                 // &none &none &none
-                &kp MB1  &mkp MB2
+                &mkp MB1  &mkp MB2
             >;
         };
 
