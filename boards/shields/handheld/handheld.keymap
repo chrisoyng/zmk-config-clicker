@@ -13,11 +13,19 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        1 {
             bindings = <
-                &mkp A &kp B &bt BT_CLR
+                &to 1 &to 2 &bt BT_CLR
                 // &none &none &none
-                &mkp MB1 &mkp MB2
+                &kp MB1  &mkp MB2
+            >;
+        };
+
+        2 {
+            bindings = <
+                &to 1 &to 2 &bt BT_CLR
+                // &none &none &none
+                &kp PAGE_DOWN  &mkp PAGE_UP
             >;
         };
     };
